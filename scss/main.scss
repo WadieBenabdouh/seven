@@ -46,3 +46,45 @@ header {
 }
 
 // HEADER END
+
+// SCENE
+.scene{
+	height: 90vh;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	background-image: url('/images/video-snapshot.png');
+
+	h1{
+		color: #f4bd0b;
+		font-size: 1.8rem;
+		font-style: italic;
+	}
+
+	h2{
+		font-weight: 500;
+		color: #fff;
+		width: 40%;
+		font-size: 2rem;
+	}
+
+	p{
+		color: #ffffff;
+		line-height: 1.8em;
+		width: 40%;
+	}
+
+	.scene-partners{
+		display: flex;
+
+		picture{
+			display: flex;
+
+			img{
+				max-width: 80%;
+			}
+		}
+	}
+}
+// SCENE END
