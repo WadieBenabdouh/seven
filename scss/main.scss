@@ -40,9 +40,13 @@ header {
 		}
 	}
 
-
-	.nos-offres-dd {
+	// NOS OFFRES DROPDOWN
+	.nos-offres-link:hover .nos-offres-dropdown {
 		display: flex;
+	}
+
+	.nos-offres-dropdown {
+		display: none;
 		position: absolute;
 		padding: 2em;
 		top: 7em;
@@ -64,6 +68,42 @@ header {
 			}
 		}
 	}
+
+	// NOS OFFRES DROPDOWN END
+
+
+	// NOS CENTRES DROPDOWN
+	.nos-centres-link:hover .nos-centres-dropdown {
+		display: flex;
+	}
+
+	.nos-centres-dropdown {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		padding: 2em;
+		top: 7em;
+		left: 0;
+		background-color: #bdb7b7;
+		width: 100%;
+		gap: 2em;
+	}
+
+	.left-services {
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+
+		p {
+			display: flex;
+			align-items: center;
+			gap: 1em;
+		}
+	}
+
+	// NOS CENTRES DROPDOWN END
+
+
 
 	.contactez-nous {
 		text-decoration: none;
