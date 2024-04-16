@@ -17,11 +17,12 @@ body {
 
 // HEADER 
 header {
-	background-color: rgb(31, 28, 28);
+	background-color: #1f1c1c;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	padding: 0.5em;
+	position: relative;
 
 	img {
 		max-width: 6em;
@@ -39,6 +40,30 @@ header {
 		}
 	}
 
+
+	.nos-offres-dd {
+		display: flex;
+		position: absolute;
+		padding: 2em;
+		top: 7em;
+		left: 0;
+		background-color: #1f1c1c;
+		width: 100%;
+		gap: 5em;
+
+		.card {
+			padding: 1em;
+			background-color: white;
+			border-radius: 20px;
+
+			h3 {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 1.8em;
+			}
+		}
+	}
+
 	.contactez-nous {
 		text-decoration: none;
 		color: #fff;
@@ -48,43 +73,47 @@ header {
 // HEADER END
 
 // SCENE
-.scene{
+.scene {
 	height: 90vh;
-	padding: 2em;
+	padding: 3em 4em;
 	display: flex;
 	flex-direction: column;
 	gap: 3em;
 	background-image: url('/images/video-snapshot.png');
 
-	h1{
+	h1 {
 		color: #f4bd0b;
 		font-size: 1.8rem;
 		font-style: italic;
 	}
 
-	h2{
+	h2 {
 		font-weight: 500;
 		color: #fff;
 		width: 40%;
 		font-size: 2rem;
 	}
 
-	p{
+	p {
 		color: #ffffff;
 		line-height: 1.8em;
 		width: 40%;
 	}
 
-	.scene-partners{
+	.scene-partners {
 		display: flex;
+		align-items: center;
 
-		picture{
+		picture {
 			display: flex;
+			align-items: center;
 
-			img{
+			img {
 				max-width: 80%;
+				filter: brightness(1.2);
 			}
 		}
 	}
 }
+
 // SCENE END
